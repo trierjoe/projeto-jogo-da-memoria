@@ -53,7 +53,7 @@ function createCardFace(face, card, element) {
     if(face === FRONT) {
         let iconElement = document.createElement('img')
         iconElement.classList.add(ICON)
-        iconElement.src = "/images/" + card.icon + ".png"
+        iconElement.src = "./images/" + card.icon + ".png"
         cardElementFace.appendChild(iconElement)
 
     } else {
